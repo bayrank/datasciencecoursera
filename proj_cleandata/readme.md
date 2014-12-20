@@ -13,10 +13,11 @@ After that you will have clean data as cleandata.txt under 'UCI HAR Dataset'
 *How it works
 
 For details refer to comments in the R coding. In summary raw data files are processed in the following way:
+
 1. Files are read separately from test and training folders. From each folder
 	* read data file('X...text') get rid of columns which do not represent mean and standard deviation.
 	* add columns related to activity and subject to this data based on the data in other subject and activity files
-	* assign descriptive names to variables based on contents of features.txt.
+	* assign descriptive names to variables based on contents of features.txt
 2. Merge pre-processed data from test and train folders
 	* calculate the mean of variables by activity and subject
 	* replace activity integer codes with descriptive text
