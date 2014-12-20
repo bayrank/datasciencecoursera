@@ -11,6 +11,7 @@ into your R working directory.
 After that you will have clean data as cleandata.txt under 'UCI HAR Dataset'
 
 *How it works
+
 For details refer to comments in the R coding. In summary raw data files are processed in the following way:
 1. Files are read separately from test and training folders. From each folder
 	* read data file('X...text') get rid of columns which do not represent mean and standard deviation.
@@ -21,6 +22,8 @@ For details refer to comments in the R coding. In summary raw data files are pro
 	* replace activity integer codes with descriptive text
 3. Write the processed data to disk as 'cleandata.txt' under 'UCI HAR Dataset'  folder
 
+
 Codebook is uploaded to GITHUB
+
 Since the focus of the exercise is the content and meaning of data itself, I merely uploaded an automatically generated version of the codebook(or else I will be spending hours with a Copy paste job of no value whatsoever). 
 In other circumstances, I would add more details for each variable when I have understanding of of what they mean.
