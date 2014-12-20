@@ -1,4 +1,6 @@
-*How to run analysis
+
+How to run analysis
+
 1. Download and unzip data from  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 into your R working directory. 
 2. Now you must have a subdirectory 'UCI HAR Dataset' under the working directory. Copy run_analysis.R to your working directory as well.
